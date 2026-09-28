@@ -1,0 +1,19 @@
+{
+  "name": "galactica-toptop",
+  "version": "0.1.0",
+  "description": "TOPTOP knowledge, task memory, skills, and reports through GALACTICA MCP",
+  "author": {
+    "name": "GALACTICA"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GALACTICA TOPTOP",
+    "shortDescription": "Work with TOPTOP through GALACTICA",
+    "longDescription": "Connect a personal GALACTICA account to TOPTOP context, task outcomes, knowledge, and report workflows.",
+    "developerName": "GALACTICA",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Load my TOPTOP context from GALACTICA and help with this task."
+  },
+  "mcpServers": "./.mcp.json"
+}
