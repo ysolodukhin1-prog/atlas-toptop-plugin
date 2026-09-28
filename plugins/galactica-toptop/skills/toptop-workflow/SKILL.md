@@ -10,3 +10,5 @@ Before substantive TOPTOP work, call `galactica_toptop_client.whoami`, then `get
 Use `search_knowledge` and `get_knowledge` for canonical context. Use `list_skills` and `get_skill` to inspect daughter procedures. Apply imported candidates only after checking their provenance and validation status. For current operational numbers, use only authorized TREND tools; a historical knowledge item is not a current metric.
 
 At the end, call `finish_task` with a structured outcome, actual checks, sources, limitations, and next step. Never claim the result was recorded if the call failed. Do not copy unrelated projects, secrets, hidden reasoning, or unverified exact messages into GALACTICA.
+
+For a data task, discover current permissions with `trend_list_sources` before choosing a source. Use `trend_describe_report` then `trend_read_report`, or discover database tables and columns before a bounded query. MPStats methods are discovered separately. Source failures must remain visible. Recheck the catalog after a permission change; never keep a local permission copy.
