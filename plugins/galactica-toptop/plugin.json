@@ -11,6 +11,10 @@
         "longDescription": "Connect a personal GALACTICA account to TOPTOP context, task outcomes, knowledge, and report workflows.",
         "developerName": "GALACTICA",
         "category": "Productivity",
+        "brandColor": "#7C5CFC",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png",
+        "logoDark": "./assets/logo.png",
         "capabilities": [],
         "defaultPrompt": "Load my TOPTOP context from GALACTICA and help with this task."
       }
