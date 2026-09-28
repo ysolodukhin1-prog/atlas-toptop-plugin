@@ -5,7 +5,7 @@ description: Maintain working context for a TOPTOP task through daughter GALACTI
 
 # Project memory for TOPTOP
 
-Call `galactica_toptop.whoami` and `get_context` for the current project path. Use `search_knowledge` for the specific question, then open the relevant canonical rows and source references. Keep the returned task ID and cite canonical IDs in working notes when they affect a decision.
+Call `galactica_toptop_client.whoami` and `get_context` for the current project path. Use `search_knowledge` for the specific question, then open the relevant canonical rows and source references. Keep the returned task ID and cite canonical IDs in working notes when they affect a decision.
 
 The daughter PostgreSQL is the source of truth; Markdown is its journaled working projection. Qdrant and Neo4j are search/navigation indexes. Do not infer a fact from a search score or graph edge alone. Distinguish current TOPTOP facts from dated historical outcomes, model proposals, and maternal imports.
 
