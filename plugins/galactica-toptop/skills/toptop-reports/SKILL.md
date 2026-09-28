@@ -5,7 +5,7 @@ description: Build TOPTOP analytical reports from authorized daughter GALACTICA 
 
 # Reports from TOPTOP data
 
-Use `galactica_toptop_client.trend_read_abc` for current ABC summary or stats from Ozon/Wildberries. Bind a personal TREND session at the server's `/galactica-mcp/trend/connect` page when needed; never ask for passwords in chat. Other reports and arbitrary SQL are not exposed yet. Preserve returned period, filters, query time, and freshness status. A query time is not a verified source update time.
+Use `galactica_toptop_client.trend_read_abc` for current ABC summary or stats from Ozon/Wildberries. Use the same personal TREND login as GALACTICA; no separate source link is required. On denied access, ask the administrator to check the explicit GALACTICA and ABC data grants in TREND. Never ask for passwords in chat. Other reports and arbitrary SQL are not exposed yet. Preserve returned period, filters, query time, and freshness status. A query time is not a verified source update time.
 
 Start with the decision the report supports. Search daughter knowledge for metric definitions, source systems, grain, update lag, and existing report methods. `list_skills` and `get_skill` may expose imported maternal report procedures: check each candidate's source, status, version, and scope before applying it. An imported candidate is guidance, not a validated TOPTOP computation.
 
