@@ -1,6 +1,6 @@
 {
   "name": "galactica-toptop",
-  "version": "0.2.0+codex.20260928070056",
+  "version": "0.3.0+codex.20260928083124",
   "description": "TOPTOP knowledge, task memory, skills, and reports through GALACTICA MCP",
   "author": {
     "name": "GALACTICA"
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "GALACTICA TOPTOP",
     "shortDescription": "Work with TOPTOP through GALACTICA",
-    "longDescription": "Connect a personal GALACTICA account to TOPTOP context, task outcomes, knowledge, and report workflows.",
+    "longDescription": "Use one personal TREND account for GALACTICA TOPTOP context, task outcomes, knowledge, and permitted source data.",
     "developerName": "GALACTICA",
     "category": "Productivity",
     "brandColor": "#7C5CFC",
