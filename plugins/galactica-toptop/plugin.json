@@ -1,14 +1,14 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "galactica-toptop",
-  "version": "0.4.0",
+  "version": "0.4.0+codex.20260928194352",
   "description": "TOPTOP knowledge, task memory, skills, and reports through GALACTICA MCP",
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "GALACTICA TOPTOP",
         "shortDescription": "Work with TOPTOP through GALACTICA",
-        "longDescription": "Connect a personal GALACTICA account to TOPTOP context, task outcomes, knowledge, and report workflows.",
+        "longDescription": "Use one personal TREND account for GALACTICA TOPTOP context, task outcomes, knowledge, and permitted source data.",
         "developerName": "GALACTICA",
         "category": "Productivity",
         "brandColor": "#7C5CFC",
