@@ -1,0 +1,16 @@
+{
+  "name": "toptop-galactica",
+  "metadata": {
+    "description": "GALACTICA plugins for authorized TOPTOP users"
+  },
+  "owner": {
+    "name": "GALACTICA"
+  },
+  "plugins": [
+    {
+      "name": "galactica-toptop",
+      "source": "./plugins/galactica-toptop",
+      "description": "TOPTOP context, memory, skills and reports"
+    }
+  ]
+}
