@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "galactica_toptop": {
+    "galactica_toptop_client": {
       "type": "http",
       "url": "https://83.222.17.242/galactica-mcp/mcp"
     }
