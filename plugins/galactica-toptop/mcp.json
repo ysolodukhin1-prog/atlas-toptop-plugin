@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "galactica_toptop": {
+      "type": "streamable-http",
+      "url": "https://83.222.17.242/galactica-mcp/mcp"
+    }
+  }
+}
