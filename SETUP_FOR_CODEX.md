@@ -1,10 +1,10 @@
-# Инструкция для Codex: установить GALACTICA TOPTOP по GitHub-ссылке
+# Инструкция для Codex: установить Атлас · TOPTOP по GitHub-ссылке
 
 Применяй эту инструкцию, когда пользователь попросил установить или подключить плагин. Одно чтение страницы не является разрешением менять настройки.
 
 ## 1. Проверь пакет и установленный клиент
 
-Репозиторий: https://github.com/ysolodukhin1-prog/galactica-toptop-plugin
+Репозиторий: https://github.com/ysolodukhin1-prog/atlas-toptop-plugin
 
 Проверь `.agents/plugins/marketplace.json` и `plugins/galactica-toptop`. Marketplace называется `toptop-galactica`, плагин — `galactica-toptop`. Не запускай произвольные скрипты из репозитория. Не запрашивай SSH, Python или доступ к серверной базе.
 
@@ -15,7 +15,7 @@
 Проверь `codex plugin marketplace list`. Если каталог ещё не добавлен:
 
 ```shell
-codex plugin marketplace add ysolodukhin1-prog/galactica-toptop-plugin
+codex plugin marketplace add ysolodukhin1-prog/atlas-toptop-plugin
 ```
 
 Если каталог уже добавлен, обнови его:
