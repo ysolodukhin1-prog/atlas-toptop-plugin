@@ -1,15 +1,15 @@
 {
   "name": "galactica-toptop",
-  "version": "0.4.0+codex.20260928194352",
-  "description": "TOPTOP knowledge, task memory, skills, and reports through GALACTICA MCP",
+  "version": "0.5.0",
+  "description": "TOPTOP knowledge, task memory, skills, and reports through Atlas MCP",
   "author": {
     "name": "GALACTICA"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "GALACTICA TOPTOP",
-    "shortDescription": "Work with TOPTOP through GALACTICA",
-    "longDescription": "Use one personal TREND account for GALACTICA TOPTOP context, task outcomes, knowledge, and permitted source data.",
+    "displayName": "Атлас · TOPTOP",
+    "shortDescription": "Work with TOPTOP through Atlas",
+    "longDescription": "Use one personal TREND account for Atlas TOPTOP context, task outcomes, knowledge, and permitted source data.",
     "developerName": "GALACTICA",
     "category": "Productivity",
     "brandColor": "#7C5CFC",
@@ -17,7 +17,7 @@
     "logo": "./assets/logo.png",
     "logoDark": "./assets/logo.png",
     "capabilities": [],
-    "defaultPrompt": "Load my TOPTOP context from GALACTICA and help with this task."
+    "defaultPrompt": "Load my TOPTOP context from Atlas and help with this task."
   },
   "mcpServers": "./.mcp.json"
 }
